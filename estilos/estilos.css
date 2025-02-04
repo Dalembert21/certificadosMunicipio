@@ -4,10 +4,10 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 13.8px; 
 }
-
+/*tamaño letra titulo*/
 h1 {
     font-weight: 500;
-    font-size: 2.0rem; /* Cambia el tamaño aquí */
+    font-size: 2.0rem; 
 }
 li {
     list-style: none;
@@ -31,6 +31,16 @@ a {
     background-color: #092A60;
     display: flex;
     flex-direction: column;
+}
+/*tamaños de letras */
+.sidebar-nav,
+.sidebar-nav .sidebar-item,
+.sidebar-nav .sidebar-link {
+    font-size: 0.9rem; 
+}
+/*tamaños de letras*/
+.navbar .btn {
+    font-size: 0.9rem; 
 }
 
 #sidebar.collapsed {
@@ -119,4 +129,13 @@ a.sidebar-link:hover {
     height: auto;
     display: block;
     margin: auto;
+}
+.btn-primary {
+    background-color: #092A60 !important;
+    border-color: #092A60 !important;
+}
+
+.btn-primary:hover {
+    background-color: #06408E !important; /* Un tono más claro para el efecto hover */
+    border-color: #06408E !important;
 }
