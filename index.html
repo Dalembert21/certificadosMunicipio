@@ -17,11 +17,19 @@
         <!-- Sidebar -->
         <aside id="sidebar" class="sidebar-toggle">
             <div class="sidebar-logo">
-                <a href="#"><i class="lni lni-home"></i> Inicio</a>
+                <a href="#">
+                    <img src="ruta-de-tu-imagen/logo.png"  class="logo-img">
+                </a>
             </div>
             <!-- Sidebar Navigation -->
+             
             <ul class="sidebar-nav p-0">
-                
+                <li class="sidebar-item px-3 py-2">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="lni lni-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Buscar..." id="sidebarSearch">
+                    </div>
+                </li>
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
                         data-bs-target="#auth1" aria-expanded="true" aria-controls="auth1">
@@ -86,21 +94,29 @@
                         </li>
                     </ul>
                 </li>
-
             </ul>
         </aside>
 
         <!-- Componentes generales -->
         <div class="main">
-            <nav class="navbar navbar-expand">
+            <nav class="navbar navbar-expand bg-light px-3 w-100">
                 <button class="toggler-btn" type="button">
                     <i class="lni lni-text-align-left"></i>
                 </button>
+                <div class="ms-auto">
+                    <a href="login.html" class="btn btn-primary me-2">
+                        <i class="lni lni-lock"></i> Iniciar Sesión
+                    </a>
+                    <a href="registro.html" class="btn btn-outline-primary">
+                        <i class="lni lni-user"></i> Registrarse
+                    </a>
+                </div>
             </nav>
+            
             <main class="p-3">
                 <div class="container-fluid">
                     <div class="mb-3 text-center">
-                        <h1>Portal de Servicios GAD Pelileo</h1>
+                        <h1>GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL DEL CANTON SAN PEDRO DE PELILEO</h1>
                     </div>
                 </div>
             </main>
